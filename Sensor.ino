@@ -1,13 +1,10 @@
 #include <WiFi.h>
 #include <HTTPClient.h>
 //
-const char* ssid = "Net 2G_claro 716";
-const char* password = "508855600";
+const char* ssid = "SEU_SSID";
+const char* password = "SENHA_WIFI";
 
-//const char* ssid = "azak";
-//const char* password = "obrigado";
-
-//Your Domain name with URL path or IP address with path
+//URL completa utilizando o metodo GET para enviar dados
 String getUpdate = "http://aditamento.pmb.eb.mil.br/sensor/update.php";
 String setSensor = "https://sisgep-pmb.eb.mil.br/rest/monitorAgua/monitorAgua";
 
